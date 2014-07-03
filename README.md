@@ -14,3 +14,13 @@ Future projects will include :
 
 - Seasalt Scheduling
 - Seasalt Hiring
+
+---------------------------
+Story :
+
+- User registers
+- User signs in with the right credentials
+- User registers the company that they want to work with
+- User fills in the right company info
+- User submits the order, the order will translate into an email or sms
+- User will be able to see comparisons between current order with the previous ones or even, targeted order
