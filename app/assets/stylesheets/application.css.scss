@@ -14,14 +14,33 @@
 
 body {
   padding-top:75px;
-  padding-right:20px;
-  padding-left:20px;
   color: black;
   font-size: 25px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  width: 100%;
+  margin: 0px;
 }
 
-.navbar-header {
-  opacity:0.5;
+#sticky {
+  margin: 0px;
+  position: fixed;
+  z-index:1000;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  padding-top: 2px;
+  padding-left:0px;
+  /* Adds to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 15px 0px #000000;
+  -moz-box-shadow: 0px 0px 15px 0px #000000;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Adds the transparent background */
+  background-color: white;
+  opacity: 0.8;
+  color: rgba(1, 1, 1, 0.8);
+}
+
+.top-page {
+  padding-left:20px;
 }
