@@ -1,19 +1,21 @@
-<%= form_for @order, :html => {:multipart => true} do |f| %>
-      <div class='control-group'>
-        <h3><span><%= f.label :name %></span></h3>
-        <%= f.text_field :name, class: "form-register" %>
-      </div>
-      <div class='control-group'>
-        <h3><span><%= f.label :quantity %></span></h3>
-        <%= f.text_field :quantity, class: "form-register" %>
-      </div>
-      <div class='control-group'>
-        <h3><span><%= f.label :vendor %></span></h3>
-        <%= f.text_field :vendor, class: "form-register" %>
-      </div>
-      <div class='control-group'>
-        <h3><span><%= f.label :email %></span></h3>
-        <%= f.text_field :email, class: "form-register" %>
-      </div>
+<div class="order-page">
+  <%= form_for @order, :html => {:multipart => true} do |f| %>
+    <div class='control-group'>
+      <h3><span><%= f.label :name %></span></h3>
+      <%= f.text_field :name, class: "form-register" %>
+    </div>
+    <div class='control-group'>
+      <h3><span><%= f.label :quantity %></span></h3>
+      <%= f.text_field :quantity, class: "form-register" %>
+    </div>
+    <div class='control-group'>
+      <h3><span><%= f.label :vendor %></span></h3>
+      <%= f.text_field :vendor, class: "form-register" %>
+    </div>
+    <div class='control-group'>
+      <h3><span><%= f.label :email %></span></h3>
+      <%= f.text_field :email, class: "form-register" %>
+    </div>
     <center><%= f.submit @order.new_record? ? "Submit" : "Update", class: 'btn btn-success btn-lg' %></center>
-    <% end %>
+  <% end %>
+</div>
