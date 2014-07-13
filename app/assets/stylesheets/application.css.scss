@@ -37,12 +37,14 @@ body {
   box-shadow: 0px 0px 15px 0px #000000;
   /* Adds the transparent background */
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   color: rgba(1, 1, 1, 0.8);
 }
 
 .front-page {
   padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Verdana', sans-serif;
 }
 
 .order-page {
@@ -51,5 +53,6 @@ body {
 
 .thumbnail1 {
   height:250px;
+  width:321px;
   background-image: asset-data-url('pie-chart-small.png');
 }
