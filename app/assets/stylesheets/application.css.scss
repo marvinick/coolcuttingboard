@@ -44,7 +44,8 @@ body {
 .front-page {
   padding-left: 62px;
   padding-right: 62px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Courier', sans-serif;
+
 }
 
 .order-page {
@@ -54,5 +55,12 @@ body {
 .thumbnail1 {
   height:250px;
   width:321px;
+  padding-right:20px;
   background-image: asset-data-url('pie-chart-small.png');
+}
+
+.thumbnail2 {
+  height:250px;
+  width:321px;
+  background-image: asset-data-url('chart.jpg');
 }

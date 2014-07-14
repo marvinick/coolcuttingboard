@@ -1,6 +1,8 @@
 <div class="order-page">
   <h1>Orders</h1>
+  <ul>
   <% @orders.each do |order| %>
-    <%= order.vendor %>
+    <li><h3><%= order.vendor %></h3></li>
     <% end %>
+  </ul>
 </div>

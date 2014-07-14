@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
   def index
-    @orders = Order.all
+    @orders = Order.order(:created_at).reverse
   end
 
   def new
@@ -21,6 +21,6 @@ class OrdersController < ApplicationController
   private
 
   def order_params
-    params.require(:order).permit(:name, :unit, :quantity, :email, :vendor)
+    params.require(:order).permit(:name, :unit, :quantity, :email, :vendor, :product)
   end
 end
