@@ -1,8 +1,7 @@
 <h1>Hello</h1>
 <h4>We'd like to order the following items, scheduled for next delivery:</h4>
-<% @orders.each do |order| %>
-    <center><h2><font color="steelblue"><%= post.name %></font></h2></center>
-    <center><h2><font color="steelblue"><%= post.quantity %></font></h2></center>
-    <center><h2><font color="steelblue"><%= post.vendor %></font></h2></center>
-    <center><h2><font color="steelblue"><%= post.email %></font></h2></center>
-    <% end %>
+
+    <center><h2><font color="steelblue"><%= @orders.name %></font></h2></center>
+    <center><h2><font color="steelblue"><%= @orders.quantity %></font></h2></center>
+    <center><h2><font color="steelblue"><%= @orders.vendor %></font></h2></center>
+

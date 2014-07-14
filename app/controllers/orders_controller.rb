@@ -8,10 +8,9 @@ class OrdersController < ApplicationController
   end
 
   def create
-    @order = Order.new(order_params)
-
-    if @order.save
-      AppMailer.order_confirmation(@order).deliver
+    @orders = Order.new(order_params)
+    if @orders.save
+      AppMailer.order_confirmation(@orders).deliver
       redirect_to orders_path(@orders)
     else
       render :new
