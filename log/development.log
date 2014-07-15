@@ -31045,3 +31045,2805 @@ Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:25:0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:25:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:33:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:34:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:36 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:35:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:36:32 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:36:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:16 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:37:25 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 129ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:55 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:37:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:58 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:38:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:40:32 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:40:48 -0500
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-07-14 21:41:29 -0500
+Processing by OrdersController#new as HTML
+  Rendered orders/new.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 132ms (Views: 123.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:41:42 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:42:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:43:41 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:43:42 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:46:30 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-07-14 21:46:32 -0500
+Processing by OrdersController#new as HTML
+  Rendered orders/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:46:35 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:46:37 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:46:38 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:46 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:46:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:47:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/adapters/standalone-framework.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts-3d.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts-3d.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts-all.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts-more.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts-more.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/highcharts.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/canvas-tools.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/canvas-tools.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/data.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/data.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/drilldown.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/drilldown.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/exporting.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/exporting.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/funnel.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/funnel.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/heatmap.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/heatmap.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/no-data-to-display.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/modules/solid-gauge.src.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/dark-blue.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/dark-green.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/gray.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/dark-unica.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/grid-light.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/grid.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/sand-signika.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/themes/skies.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-14 21:48:17 -0500
