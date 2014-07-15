@@ -1,4 +1,6 @@
 Seasaltdev::Application.routes.draw do
+  resources :products
+
   resources :pages
   root to: "pages#index"
   resources :orders

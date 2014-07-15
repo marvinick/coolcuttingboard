@@ -38,7 +38,6 @@ body {
   /* Adds the transparent background */
   background-color: black;
   opacity: 0.7;
-
 }
 
 .front-page {
@@ -64,4 +63,8 @@ body {
   height:250px;
   width:250px;
   background-image: asset-data-url('chart.jpg');
+}
+
+.products {
+  padding-left :30px;
 }
