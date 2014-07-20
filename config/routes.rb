@@ -1,4 +1,5 @@
 Seasaltdev::Application.routes.draw do
+  get "listing/index"
   resources :products
 
   resources :pages
