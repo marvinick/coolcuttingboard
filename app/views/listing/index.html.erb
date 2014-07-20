@@ -1,6 +1,27 @@
-<div class="listing">
-  <h2>Choose the products you'd like order below:</h2>
-  <% @products.each do |product| %>
-  <h4><%= product.title %></h4>
-  <%= sanitize(product.description) %>
-  <% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar">
+        <h5>Cart:</h5>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="listing">
+        <h2>Choose the products you want to order below:</h2>
+        <% cache ["listing", Product.latest] do %>
+        <% @products.each do |product| %>
+        <% cache ["listing", product] do %>
+        <h4><%= product.title %></h4>
+        <%= sanitize(product.description) %>
+        <div class="price_line">
+          <span class="price"><%= product.price %></span>
+        </div>
+        <% end %>
+        <% end %>
+
+      </div>
+      <% end %>
+    </div>
+
+  </div>
+</div>

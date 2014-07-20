@@ -37,8 +37,8 @@ body {
   -moz-box-shadow: 0px 0px 15px 0px #000000;
   box-shadow: 0px 0px 15px 0px #000000;
   /* Adds the transparent background */
-  background-color: black;
-  opacity: 0.7;
+  background-color: white;
+  opacity: 0.9;
 }
 
 .front-page {
@@ -80,3 +80,16 @@ body {
   padding-left: 35px;
   padding-right: 30px;
   }
+
+.sidebar {
+  float: left;
+  background-color:#C8C8C8;
+  padding: 1em 2em;
+  width: 17em;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  margin-right: 3em;
+}
