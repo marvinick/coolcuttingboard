@@ -1,0 +1,7 @@
+o: ActiveSupport::Cache::Entry:@valueI"‡        <h4>Ahi Tuna AA+</h4>
+        Our go to tuna 
+        <div class="price_line">
+          <span class="price">16.99</span>
+          <form action="/line_items?product_id=1" class="button_to" method="post"><div><input type="submit" value="Add to Cart" /><input name="authenticity_token" type="hidden" value="8Erp3AL7jjZGG2cqBzeg9OiKb6JoeddA48gozkhXt4Q=" /></div></form>
+        </div>
+:ET:@created_atf1405906402.232092:@expires_in0

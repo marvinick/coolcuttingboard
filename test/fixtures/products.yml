@@ -9,3 +9,8 @@ two:
   title: MyString
   description: MyText
   price: 9.99
+
+salmon:
+  title: Sake
+  description: One of the best fishes out there
+  price: 6.99

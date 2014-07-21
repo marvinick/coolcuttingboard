@@ -1,0 +1,7 @@
+o: ActiveSupport::Cache::Entry:@valueI"‰        <h4>Moon Fish </h4>
+        For weekend special
+        <div class="price_line">
+          <span class="price">14.99</span>
+          <form action="/line_items?product_id=2" class="button_to" method="post"><div><input type="submit" value="Add to Cart" /><input name="authenticity_token" type="hidden" value="8Erp3AL7jjZGG2cqBzeg9OiKb6JoeddA48gozkhXt4Q=" /></div></form>
+        </div>
+:ET:@created_atf1405906402.236442:@expires_in0
