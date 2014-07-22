@@ -106,3 +106,15 @@ body {
 .cart {
   padding-left:30px;
 }
+
+.carts {
+  .item_price, .total_line {
+    text-align: right;
+  }
+  .total_line, .total_cell {
+    font-weight: bold;
+    border-top: 1px solid #595
+  }
+}
+
+
