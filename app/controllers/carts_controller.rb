@@ -15,7 +15,7 @@ class CartsController < ApplicationController
 
   def edit
   end
-ww
+
   def create
     @cart = Cart.new(cart_params)
 
