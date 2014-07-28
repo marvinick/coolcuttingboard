@@ -9,8 +9,7 @@
     </tr>
   </table>
 
-  <%= link_to 'Edit', edit_cart_path(@cart) %> |
-  <%= link_to 'Back', carts_path %>
+  <%= button_to 'Submit', @carts, method: :get %>
   <%= button_to 'Empty Cart', @cart, method: :delete,
       data: { confirm: "Are you sure?" } %>
 </div>
