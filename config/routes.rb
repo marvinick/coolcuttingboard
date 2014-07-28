@@ -1,4 +1,6 @@
 Seasaltdev::Application.routes.draw do
+  resources :deliveries
+
   resources :line_items
 
   resources :carts

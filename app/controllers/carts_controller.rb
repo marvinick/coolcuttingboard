@@ -20,7 +20,7 @@ class CartsController < ApplicationController
     @cart = Cart.new(cart_params)
 
     if @cart.save
-      AppMailer.order_confirmation(@cart).deliver
+      AppMailer.product_confirmation(@product).deliver
       redirect_to orders_path(@orders)
     else
       redirect_to listing_index_path(@listing)
