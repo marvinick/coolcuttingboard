@@ -32,7 +32,7 @@ class DeliveriesControllerTest < ActionController::TestCase
       post :create, delivery: { address: @delivery.address, email: @delivery.email, name: @delivery.name }
     end
 
-    assert_redirected_to delivery_path(assigns(:delivery))
+    assert_redirected_to listing_index_path
   end
 
   test "should show delivery" do

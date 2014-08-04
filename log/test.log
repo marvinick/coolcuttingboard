@@ -303,3 +303,556 @@ Processing by ProductsController#update as HTML
 Redirected to http://test.host/products/980190962
 Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
   [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "deliveries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" text, "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1, "order_id" integer) [0m
+  [1m[35m (1.1ms)[0m  CREATE INDEX "index_line_items_on_cart_id" ON "line_items" ("cart_id")
+  [1m[36m (1.1ms)[0m  [1mCREATE INDEX "index_line_items_on_order_id" ON "line_items" ("order_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_line_items_on_product_id" ON "line_items" ("product_id")
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "unit" varchar(255), "quantity" integer, "created_at" datetime, "updated_at" datetime, "vendor" varchar(255), "email" varchar(255), "product" varchar(255)) [0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "price" decimal(8,2), "created_at" datetime, "updated_at" datetime, "email" varchar(255)) [0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140728231205')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140628170923')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140701023632')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140702023258')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140702023941')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140702033600')[0m
+  [1m[35m (1.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140714183017')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140715193947')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140721010541')
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140721011628')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140721041710')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140721042614')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140728230058')
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140728231127')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.7ms)[0m  [1mDELETE FROM "carts"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "carts" ("created_at", "updated_at", "id") VALUES ('2014-08-04 02:46:48', '2014-08-04 02:46:48', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at", "id") VALUES ('2014-08-04 02:46:48', '2014-08-04 02:46:48', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "deliveries"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "deliveries" ("name", "address", "email", "created_at", "updated_at", "id") VALUES ('Marvki', 'MyText', 'marvkiluw@gmail.com', '2014-08-04 02:46:48', '2014-08-04 02:46:48', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "deliveries" ("name", "address", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 'MyString', '2014-08-04 02:46:48', '2014-08-04 02:46:48', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "line_items"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "line_items" ("product_id", "cart_id", "created_at", "updated_at", "id") VALUES (NULL, NULL, '2014-08-04 02:46:48', '2014-08-04 02:46:48', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "line_items" ("product_id", "cart_id", "created_at", "updated_at", "id") VALUES (NULL, NULL, '2014-08-04 02:46:48', '2014-08-04 02:46:48', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "products"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "products" ("title", "description", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 9.99, '2014-08-04 02:46:48', '2014-08-04 02:46:48', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "products" ("title", "description", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', 9.99, '2014-08-04 02:46:48', '2014-08-04 02:46:48', 298486374)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "products" ("title", "description", "price", "created_at", "updated_at", "id") VALUES ('Sake', 'One of the best fishes out there', 6.99, '2014-08-04 02:46:48', '2014-08-04 02:46:48', 565619665)[0m
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+CartsControllerTest: test_should_create_cart
+--------------------------------------------
+  [1m[35mCart Load (0.3ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "carts"[0m
+Processing by CartsController#create as HTML
+  Parameters: {"cart"=>{}}
+Attempt to access invalid cart 
+Redirected to http://test.host/listing/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "carts"
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------
+CartsControllerTest: test_should_destroy_cart
+---------------------------------------------
+  [1m[36mCart Load (0.2ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "carts"
+Processing by CartsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = ?[0m  [["cart_id", 980190962]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/listing/index
+Completed 302 Found in 61ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "carts"
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------
+CartsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by CartsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "980190962"]]
+  Rendered carts/_form.html.erb (13.2ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+------------------------------------------
+CartsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by CartsController#index as HTML
+  [1m[35mCart Load (0.2ms)[0m  SELECT "carts".* FROM "carts"
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------
+CartsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mCart Load (0.2ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by CartsController#new as HTML
+  Rendered carts/_form.html.erb (1.5ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------
+CartsControllerTest: test_should_show_cart
+------------------------------------------
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = ?  [["cart_id", 980190962]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (3.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------
+CartsControllerTest: test_should_update_cart
+--------------------------------------------
+  [1m[36mCart Load (0.1ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by CartsController#update as HTML
+  Parameters: {"cart"=>{}, "id"=>"980190962"}
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/carts/980190962
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------------------
+DeliveriesControllerTest: test_requires_item_in_cart
+----------------------------------------------------
+  [1m[36mDelivery Load (0.4ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by DeliveriesController#new as HTML
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.2ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mLineItem Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "line_items" WHERE "line_items"."cart_id" = ? LIMIT 1[0m  [["cart_id", 980190963]]
+Redirected to http://test.host/listing/index
+Completed 302 Found in 19ms (ActiveRecord: 3.7ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------
+DeliveriesControllerTest: test_should_create_delivery
+-----------------------------------------------------
+  [1m[35mDelivery Load (0.1ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "deliveries"[0m
+Processing by DeliveriesController#create as HTML
+  Parameters: {"delivery"=>{"address"=>"MyText", "email"=>"marvkiluw@gmail.com", "name"=>"Marvki"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "deliveries" ("address", "created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["address", "MyText"], ["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["email", "marvkiluw@gmail.com"], ["name", "Marvki"], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/deliveries/980190963
+Completed 302 Found in 11ms (ActiveRecord: 2.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "deliveries"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+------------------------------------------------------
+DeliveriesControllerTest: test_should_destroy_delivery
+------------------------------------------------------
+  [1m[36mDelivery Load (0.1ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "deliveries"
+Processing by DeliveriesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mDelivery Load (0.1ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "deliveries" WHERE "deliveries"."id" = ?[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/deliveries
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "deliveries"[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------
+DeliveriesControllerTest: test_should_get_edit
+----------------------------------------------
+  [1m[35mDelivery Load (0.1ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by DeliveriesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mDelivery Load (0.1ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+ERROR: compiling _app_views_deliveries__form_html_erb__4341449719746941277_2188575180 RAISED /Users/marvin8214/Desktop/coolcuttingboard/app/views/deliveries/_form.html.erb:27: syntax error, unexpected ')', expecting :: or '[' or '.'
+...end=( f.submit, 'Place Order' );@output_buffer.safe_append='
+...                               ^
+/Users/marvin8214/Desktop/coolcuttingboard/app/views/deliveries/_form.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+'; end 
+      ^
+/Users/marvin8214/Desktop/coolcuttingboard/app/views/deliveries/_form.html.erb:31: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/marvin8214/Desktop/coolcuttingboard/app/views/deliveries/_form.html.erb:33: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_deliveries__form_html_erb__4341449719746941277_2188575180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "deliveries/_form";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for(@delivery) do |f| @output_buffer.safe_append='
+';   if @delivery.errors.any? 
+@output_buffer.safe_append='    <div id="error_explanation">
+      <h2>';@output_buffer.append=( pluralize(@delivery.errors.count, "error") );@output_buffer.safe_append=' prohibited this delivery from being saved:</h2>
+
+      <ul>
+';       @delivery.errors.full_messages.each do |msg| 
+@output_buffer.safe_append='        <li>';@output_buffer.append=( msg );@output_buffer.safe_append='</li>
+';       end 
+@output_buffer.safe_append='      </ul>
+    </div>
+';   end 
+@output_buffer.safe_append='
+  <div class="field">
+    ';@output_buffer.append=( f.label :name );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :name, size: 40 );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :address );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_area :address, rows: 3, cols: 40 );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :email );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :email, size: 40 );@output_buffer.safe_append='
+  </div>
+  <div class="actions">
+    ';@output_buffer.append=( f.submit, 'Place Order' );@output_buffer.safe_append='
+  </div>
+'; end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/marvin8214/Desktop/coolcuttingboard/app/views/deliveries/edit.html.erb:3:in `_app_views_deliveries_edit_html_erb__2460657083863843133_2188562660'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:423:in `_run__4080372979557086429__process_action__callbacks'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/test_case.rb:569:in `process'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/test_case.rb:64:in `process'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.1/lib/action_controller/test_case.rb:469:in `get'
+/Users/marvin8214/Desktop/coolcuttingboard/test/controllers/deliveries_controller_test.rb:44:in `block in <class:DeliveriesControllerTest>'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1258:in `run'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:933:in `block in _run_suite'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:926:in `map'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:926:in `_run_suite'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/parallel_each.rb:71:in `block in _run_suites'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/parallel_each.rb:71:in `map'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/parallel_each.rb:71:in `_run_suites'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:877:in `_run_anything'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1085:in `run_tests'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1072:in `block in _run'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1071:in `each'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1071:in `_run'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:1059:in `run'
+/usr/local/rvm/gems/ruby-2.0.0-p481/gems/minitest-4.7.5/lib/minitest/unit.rb:795:in `block in autorun'
+  Rendered deliveries/_form.html.erb (3.7ms)
+Completed 500 Internal Server Error in 10ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+DeliveriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[35mDelivery Load (0.1ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by DeliveriesController#index as HTML
+  [1m[36mDelivery Load (0.2ms)[0m  [1mSELECT "deliveries".* FROM "deliveries"[0m
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+DeliveriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[35mDelivery Load (0.2ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------------
+DeliveriesControllerTest: test_should_show_delivery
+---------------------------------------------------
+  [1m[36mDelivery Load (0.1ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by DeliveriesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mDelivery Load (0.1ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", "980190962"]]
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------------------
+DeliveriesControllerTest: test_should_update_delivery
+-----------------------------------------------------
+  [1m[36mDelivery Load (0.1ms)[0m  [1mSELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by DeliveriesController#update as HTML
+  Parameters: {"delivery"=>{"address"=>"MyText", "email"=>"marvkiluw@gmail.com", "name"=>"Marvki"}, "id"=>"980190962"}
+  [1m[35mDelivery Load (0.1ms)[0m  SELECT "deliveries".* FROM "deliveries" WHERE "deliveries"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/deliveries/980190962
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------------------
+LineItemsControllerTest: test_should_create_line_item
+-----------------------------------------------------
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "line_items"
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 565619665]]
+Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"565619665"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "565619665"]]
+  [1m[35mLineItem Load (0.3ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = ? AND "line_items"."product_id" = 565619665 LIMIT 1  [["cart_id", 980190963]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "line_items" ("cart_id", "created_at", "product_id", "updated_at") VALUES (?, ?, ?, ?)  [["cart_id", 980190963], ["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["product_id", 565619665], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/listing/index
+Completed 302 Found in 12ms (ActiveRecord: 1.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "line_items"
+  [1m[36mCart Load (0.3ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 980190963]]
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------
+LineItemsControllerTest: test_should_destroy_line_item
+------------------------------------------------------
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "line_items"[0m
+Processing by LineItemsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1  [["id", "980190962"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/line_items
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "line_items"
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------
+LineItemsControllerTest: test_should_get_edit
+---------------------------------------------
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by LineItemsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1  [["id", "980190962"]]
+  Rendered line_items/_form.html.erb (10.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------------
+LineItemsControllerTest: test_should_get_index
+----------------------------------------------
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by LineItemsController#index as HTML
+  [1m[35mLineItem Load (0.2ms)[0m  SELECT "line_items".* FROM "line_items"
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------
+LineItemsControllerTest: test_should_get_new
+--------------------------------------------
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by LineItemsController#new as HTML
+  Rendered line_items/_form.html.erb (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------
+LineItemsControllerTest: test_should_show_line_item
+---------------------------------------------------
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by LineItemsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------
+LineItemsControllerTest: test_should_update_line_item
+-----------------------------------------------------
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by LineItemsController#update as HTML
+  Parameters: {"line_item"=>{"product_id"=>nil}, "id"=>"980190962"}
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/line_items/980190962
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+ListingControllerTest: test_should_get_index
+--------------------------------------------
+Processing by ListingController#index as HTML
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mLineItem Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "line_items" WHERE "line_items"."cart_id" = ? LIMIT 1[0m  [["cart_id", 980190963]]
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = ?  [["cart_id", 980190963]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (1.9ms)
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY "products"."updated_at" DESC LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" ORDER BY "products"."title" ASC
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+------------------------------------------------------
+ProductTest: test_product_attributes_must_not_be_empty
+------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------------
+ProductsControllerTest: test_should_create_product
+--------------------------------------------------
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"title"=>"Lorem Ipsum", "description"=>"what is that?", "price"=>"15.95"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "products" ("created_at", "description", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00], ["description", "what is that?"], ["price", #<BigDecimal:1031c53a0,'0.1595E2',18(18)>], ["title", "Lorem Ipsum"], ["updated_at", Mon, 04 Aug 2014 02:46:48 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/products/980190963
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------------
+ProductsControllerTest: test_should_destroy_product
+---------------------------------------------------
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+Processing by ProductsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLineItem Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "line_items" WHERE "line_items"."product_id" = ? LIMIT 1[0m  [["product_id", 980190962]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "products" WHERE "products"."id" = ?  [["id", 980190962]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/products
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+--------------------------------------------
+ProductsControllerTest: test_should_get_edit
+--------------------------------------------
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "980190962"]]
+  Rendered products/_form.html.erb (6.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------
+ProductsControllerTest: test_should_get_index
+---------------------------------------------
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------
+ProductsControllerTest: test_should_get_new
+-------------------------------------------
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (3.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+ProductsControllerTest: test_should_show_product
+------------------------------------------------
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------
+ProductsControllerTest: test_should_update_product
+--------------------------------------------------
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by ProductsController#update as HTML
+  Parameters: {"product"=>{"title"=>"Lorem Ipsum", "description"=>"what is that?", "price"=>"15.95"}, "id"=>"980190962"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "980190962"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "products" SET "title" = ?, "description" = ?, "price" = ?, "updated_at" = ? WHERE "products"."id" = 980190962[0m  [["title", "Lorem Ipsum"], ["description", "what is that?"], ["price", #<BigDecimal:10787b920,'0.1595E2',18(18)>], ["updated_at", Mon, 04 Aug 2014 02:46:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/products/980190962
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m

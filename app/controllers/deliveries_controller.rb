@@ -3,18 +3,13 @@ class DeliveriesController < ApplicationController
   before_action :set_cart, only: [:new, :create]
   before_action :set_delivery, only: [:show, :edit, :update, :destroy]
 
-  # GET /deliveries
-  # GET /deliveries.json
   def index
     @deliveries = Delivery.all
   end
 
-  # GET /deliveries/1
-  # GET /deliveries/1.json
   def show
   end
 
-  # GET /deliveries/new
   def new
     if @cart.line_items.empty?
       redirect_to listing_index_url, notice: "Your cart is empty"
@@ -24,18 +19,18 @@ class DeliveriesController < ApplicationController
     @delivery = Delivery.new
   end
 
-  # GET /deliveries/1/edit
   def edit
   end
 
-  # POST /deliveries
-  # POST /deliveries.json
   def create
     @delivery = Delivery.new(delivery_params)
+    #@delivery.add_line_items_from_cart(@cart)
 
     respond_to do |format|
       if @delivery.save
-        format.html { redirect_to @delivery, notice: 'Delivery was successfully created.' }
+
+
+        format.html { redirect_to root_path, notice: 'Awesome, you have ordered!' }
         format.json { render action: 'show', status: :created, location: @delivery }
       else
         format.html { render action: 'new' }
@@ -44,8 +39,6 @@ class DeliveriesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /deliveries/1
-  # PATCH/PUT /deliveries/1.json
   def update
     respond_to do |format|
       if @delivery.update(delivery_params)
@@ -58,8 +51,6 @@ class DeliveriesController < ApplicationController
     end
   end
 
-  # DELETE /deliveries/1
-  # DELETE /deliveries/1.json
   def destroy
     @delivery.destroy
     respond_to do |format|

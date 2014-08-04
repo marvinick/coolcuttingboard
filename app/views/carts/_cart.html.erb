@@ -9,7 +9,7 @@
     </tr>
   </table>
 
-  <%= button_to 'Submit', @carts, method: :get %>
+  <%= button_to 'Submit', new_delivery_path, method: :get %>
   <%= button_to 'Empty Cart', @cart, method: :delete,
       data: { confirm: "Are you sure?" } %>
 </div>

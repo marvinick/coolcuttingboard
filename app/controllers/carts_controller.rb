@@ -19,11 +19,14 @@ class CartsController < ApplicationController
   def create
     @cart = Cart.new(cart_params)
 
-    if @cart.save
-      AppMailer.product_confirmation(@product).deliver
-      redirect_to orders_path(@orders)
-    else
-      redirect_to listing_index_path(@listing)
+    respond_to do |format|
+      if @cart.save
+        format.html { redirect_to @cart, notice: 'Cart was successfully created.' }
+        format.json { render action: 'show', status: :created, location: @cart }
+      else
+        format.html { render action: 'new' }
+        format.json { render json: @cart.errors, status: :unprocessable_entity }
+      end
     end
   end
 
