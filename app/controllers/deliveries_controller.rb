@@ -29,6 +29,7 @@ class DeliveriesController < ApplicationController
     respond_to do |format|
       if @delivery.save
 
+        AppMailer.order_confirmation(@delivery).deliver
 
         format.html { redirect_to root_path, notice: 'Awesome, you have ordered!' }
         format.json { render action: 'show', status: :created, location: @delivery }
