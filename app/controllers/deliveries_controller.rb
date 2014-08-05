@@ -24,19 +24,12 @@ class DeliveriesController < ApplicationController
 
   def create
     @delivery = Delivery.new(delivery_params)
-    #@delivery.add_line_items_from_cart(@cart)
 
-    respond_to do |format|
-      if @delivery.save
-
-        AppMailer.order_confirmation(@delivery).deliver
-
-        format.html { redirect_to root_path, notice: 'Awesome, you have ordered!' }
-        format.json { render action: 'show', status: :created, location: @delivery }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @delivery.errors, status: :unprocessable_entity }
-      end
+    if @delivery.save
+      AppMailer.order_confirmation(@delivery).deliver
+      redirect_to listing_index_url
+    else
+      render :new
     end
   end
 

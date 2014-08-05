@@ -1,6 +1,15 @@
-<div class="depot_form">
-  <fieldset>
-    <legend>Please enter your details</legend>
-    <%= render 'form' %>
-  </fieldset>
+<div class="col-md-3">
+  <div class="sidebar">
+    <div id="cart">
+      <%= render @cart %>
+    </div>
+  </div>
+</div>
+<div class="col-md-9">
+  <div class="depot_form">
+    <fieldset>
+      <legend>Please enter your details</legend>
+      <%= render 'form' %>
+    </fieldset>
+  </div>
 </div>
