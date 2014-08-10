@@ -1,4 +1,6 @@
 Seasaltdev::Application.routes.draw do
+  resources :posts
+
   resources :deliveries
 
   resources :line_items
