@@ -1,29 +1,25 @@
-<div class="post">
-<h1>Posts</h1>
+<body>
+  <div class="post">
+    <h1>News</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+      <div class="col-md-3">
+        <% @posts.each do |post| %>
+          <h3><%= link_to post.title, post %></h3>
+          <%= link_to 'Edit', edit_post_path(post) %>
+          <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
 
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <tr/>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
-</div>
+      </div>
+    </div>
+  </div>
+</body>
+<br/>
+<footer class="footer">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-12">
+        <center><%= link_to 'New Post', new_post_path %></center>
+      </div>
+    </div>
+  </div>
+</footer>
