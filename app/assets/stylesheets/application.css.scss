@@ -28,7 +28,7 @@ body {
   padding-bottom: 60px;
 }
 
-.sticky {
+#sticky {
   margin: auto;
   position: fixed;
   z-index:1000;
@@ -45,6 +45,18 @@ body {
   /* Adds the transparent background */
   background-color: #003366;
   opacity: 0.9;
+  font-size: large;
+}
+
+#sticky li {
+  display: inline;
+  padding-right: 30px;
+}
+
+#sticky a {
+  font-size: 18px;
+  color: white;
+  font-family: Comic Sans MS, serif;
 }
 
 .front-page {

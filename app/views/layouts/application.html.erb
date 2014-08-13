@@ -11,14 +11,14 @@
   </head>
 
   <body>
-    <div class="sticky">
+    <div id="sticky">
       <div class="nav">
         <div class="container">
           <div class="row">
             <ul class="pull-left">
-            <%= link_to "CuttingBoard", root_path %>
-            <%= link_to "Post", new_post_path %>
-            <%= link_to "Order", listing_index_path %>
+              <font><li><%= link_to "CuttingBoard", root_path %></li></font>
+              <li><%= link_to "New Post", new_post_path %></li>
+              <li><%= link_to "Order", new_order_path %></li>
             </ul>
           </div>
         </div>

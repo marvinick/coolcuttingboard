@@ -2,7 +2,7 @@
   <div class="order-page">
     <div class='container'>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <h3><span><%= f.label :product %></span></h3>
           <%= f.text_field :product %>
         </div>
@@ -23,13 +23,14 @@
           <%= f.text_field :email %>
         </div>
       </div>
+    <div class="row">
+      <div class='col-md-2'>
+        <h3><span><%= f.label :description %></span></h3>
+        <%= f.text_area :description, row: 20 %>
+      </div>
+    </div>
     </div>
     <br/>
     <center><%= f.submit @order.new_record? ? "Submit" : "Update", class: 'btn btn-success btn-lg' %></center>
   </div>
 <% end %>
-
-<div class="order-instruction">
-  <h4>Clicking "add" button will add automatically do the calculation of how many units and the price</h4>
-  <h4>It renders the cart, and by clicking the "submit" button, and email will be delivered</h4>
-</div>

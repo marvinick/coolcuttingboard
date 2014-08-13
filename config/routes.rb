@@ -1,9 +1,5 @@
 Seasaltdev::Application.routes.draw do
   resources :posts
-  resources :deliveries
-  resources :line_items
-  resources :carts
-  get "listing/index"
   resources :products
 
   resources :pages

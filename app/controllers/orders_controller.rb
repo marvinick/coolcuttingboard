@@ -8,9 +8,9 @@ class OrdersController < ApplicationController
   end
 
   def create
-    @orders = Order.new(order_params)
-    if @orders.save
-      AppMailer.order_confirmation(@orders).deliver
+    @order = Order.new(order_params)
+    if @order.save
+      AppMailer.order_confirmation(@order).deliver
       redirect_to orders_path(@orders)
     else
       render :new
@@ -21,6 +21,6 @@ class OrdersController < ApplicationController
   private
 
   def order_params
-    params.require(:order).permit(:name, :unit, :quantity, :email, :vendor, :product)
+    params.require(:order).permit(:name, :unit, :quantity, :email, :vendor, :product, :description)
   end
 end

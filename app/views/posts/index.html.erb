@@ -5,6 +5,7 @@
   <% @posts.each do |post| %>
     <div class="span3 well">
       <h3><%= link_to post.title, post %></h3>
+      <h6><%= post.created_at %>
       <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %>
     </div>
   <% end %>
