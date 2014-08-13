@@ -1,0 +1,9 @@
+<div class="post">
+  <p id="notice"><%= notice %></p>
+  <h4><%= @order.product %></h4>
+  <h4><%= @order.quantity %> <%= @order.unit %></h4>
+  <h4><%= @order.description %></h4>
+  <h4><%= @order.vendor %> (<%= @order.email %>)</h4>
+  <h4><%= @order.description %></h4>
+  <%= link_to 'Back', orders_path %>
+</div>
