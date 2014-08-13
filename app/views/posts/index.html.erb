@@ -2,11 +2,11 @@
   <div class="post">
     <h1>News</h1>
   </div>
-   <% @posts.each do |post| %>
-      <div class="span3 well">
-        <h3><%= link_to post.title, post %></h3>
-        <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %>
-      </div>
-    <% end %>
+  <% @posts.each do |post| %>
+    <div class="span3 well">
+      <h3><%= link_to post.title, post %></h3>
+      <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+  <% end %>
 </body>
 <br/>

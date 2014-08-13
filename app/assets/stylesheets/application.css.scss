@@ -13,8 +13,8 @@
  *= require_tree .
  */
 
-@import "bootstrap";
-
+ @import "bootstrap";
+ @import "bootstrap-responsive";
 
 body {
   padding-top:75px;
@@ -28,28 +28,23 @@ body {
   padding-bottom: 60px;
 }
 
-#sticky {
+.sticky {
   margin: auto;
   position: fixed;
   z-index:1000;
   top: 0px;
   width: 100%;
   height: 50px;
-  padding-top: 2px;
-  padding-right:2px;
-  text-align: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   /* Adds to the bottom of the bar */
   -webkit-box-shadow: 0px 0px 15px 0px #000000;
   -moz-box-shadow: 0px 0px 15px 0px #000000;
   box-shadow: 0px 0px 15px 0px #000000;
   /* Adds the transparent background */
-  background-color: #990000;
-  opacity: 0.8;
-}
-
-.nav {
-  width: 100%;
-  padding-left: 0px;
+  background-color: #003366;
+  opacity: 0.9;
 }
 
 .front-page {
@@ -175,8 +170,4 @@ body {
   padding-right: 30px;
 }
 
-.well {
-  background-color: #D1EEEE;
-  height :100%;
-  padding-left: 30px;
-}
+
