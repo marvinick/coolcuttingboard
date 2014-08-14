@@ -1,4 +1,6 @@
 Seasaltdev::Application.routes.draw do
+  resources :members
+
   resources :posts
   resources :products
 
