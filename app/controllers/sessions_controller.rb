@@ -3,20 +3,17 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.where(name: params[:name]).first
-    if user && user.authenticate(params[:password])
-      session[:user_id] = user.id
-      flash[:notice] = "You have logged in"
-      redirect_to root_path
+    member = Member.find_by(name: params[:name])
+    if member && member.authenticate(params[:password])
+      session[:member_id] = member.id
+      redirect_to admin_url
     else
-      flash[:error] = "Please fix the error(s)"
-      render :new
+      redirect_to login_url, alert: "Invalid input(s)"
     end
   end
 
   def destroy
-    session[:user_id] = nil
-    flash[:notice] = "You've logged out"
-    redirect_to root_path
+    session[:member_id] = nil
+    redirect_to users_path, notice: 'Logged out'
   end
 end
