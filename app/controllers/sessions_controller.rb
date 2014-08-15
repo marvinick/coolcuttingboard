@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     member = Member.find_by(name: params[:name])
     if member && member.authenticate(params[:password])
       session[:member_id] = member.id
-      redirect_to admin_url
+      redirect_to posts_path
     else
       redirect_to login_url, alert: "Invalid input(s)"
     end
