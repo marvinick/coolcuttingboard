@@ -14,6 +14,6 @@ class SessionsController < ApplicationController
 
   def destroy
     session[:member_id] = nil
-    redirect_to users_path, notice: "You've logged out"
+    redirect_to pages_path, notice: "You've logged out"
   end
 end

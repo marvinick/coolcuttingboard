@@ -16,9 +16,24 @@
         <div class="container">
           <div class="row">
             <ul class="pull-left">
-              <li><%= link_to "CoolCuttingBoard", root_path %></li></font>
-              <li><%= link_to "Post", new_post_path %></li>
-              <li><%= link_to "Order", new_order_path %></li>
+              <li><%= link_to "CoolCuttingBoard", root_path %></li>
+              <% if logged_in? %>
+                <li>
+                  <%= link_to 'Post', new_post_path %>
+                <li>
+                  <%= link_to "Order", new_order_path %>
+                </li>
+                <li>
+                  <%= link_to 'Log Out', logout_path %>
+                </li>
+              <% else %>
+                <li>
+                  <%= link_to 'Register', new_member_path %>
+                </li>
+                <li>
+                  <%= link_to 'Log in', login_path %>
+                </li>
+              <% end %>
             </ul>
           </div>
         </div>

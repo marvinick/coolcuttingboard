@@ -1,4 +1,6 @@
 class OrdersController < ApplicationController
+  before_action :require_user, only: [:new, :create]
+
   def index
     @orders = Order.order(:created_at).reverse
   end
