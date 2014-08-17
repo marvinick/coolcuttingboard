@@ -23,13 +23,7 @@
                 <li>
                   <%= link_to "Order", new_order_path %>
                 </li>
-                <li>
-                  <%= link_to 'Log Out', logout_path %>
-                </li>
               <% else %>
-                <li>
-                  <%= link_to 'Register', new_member_path %>
-                </li>
                 <li>
                   <%= link_to 'Log in', login_path %>
                 </li>
@@ -41,5 +35,7 @@
     </div>
      <%= yield %>
   </body>
+  <br/>
+
 
 </html>
