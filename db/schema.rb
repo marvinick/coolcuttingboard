@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140814031705) do
+ActiveRecord::Schema.define(version: 20140817165814) do
 
   create_table "members", force: true do |t|
     t.string   "name"
@@ -30,6 +30,36 @@ ActiveRecord::Schema.define(version: 20140814031705) do
     t.string   "email"
     t.string   "product"
     t.string   "description"
+    t.string   "product1"
+    t.string   "product2"
+    t.string   "product3"
+    t.string   "product4"
+    t.string   "product5"
+    t.string   "product6"
+    t.string   "product7"
+    t.string   "product8"
+    t.string   "product9"
+    t.string   "product10"
+    t.integer  "quantity1"
+    t.integer  "quantity2"
+    t.integer  "quantity3"
+    t.integer  "quantity4"
+    t.integer  "quantity5"
+    t.integer  "quantity6"
+    t.integer  "quantity7"
+    t.integer  "quantity8"
+    t.integer  "quantity9"
+    t.integer  "quantity10"
+    t.string   "unit1"
+    t.string   "unit2"
+    t.string   "unit3"
+    t.string   "unit4"
+    t.string   "unit5"
+    t.string   "unit6"
+    t.string   "unit7"
+    t.string   "unit8"
+    t.string   "unit9"
+    t.string   "unit10"
   end
 
   create_table "pages", force: true do |t|
