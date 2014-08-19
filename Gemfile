@@ -17,6 +17,7 @@ gem 'bootstrap-sass', '~> 2.3.2.0'
 gem "rails_serve_static_assets"
 gem 'omniauth'
 gem 'koala'
+gem "chartkick"
 
 group :doc do
   gem 'sdoc', require: false
