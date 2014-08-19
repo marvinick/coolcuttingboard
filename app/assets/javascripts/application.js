@@ -10,10 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jsapi
+//= require chartkick
 //= require jquery
 //= require jqueryui
 //= require jquery_ujs
 //= require turbolinks
-//= require jsapi
-//= require chartkick
 //= require_tree .
