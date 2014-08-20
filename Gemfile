@@ -18,6 +18,10 @@ gem "rails_serve_static_assets"
 gem 'omniauth'
 gem 'koala'
 gem "chartkick"
+gem 'groupdate', '~> 2.1.1'
+gem 'active_median', '~> 0.1.0'
+gem 'pg'
+gem 'sqlite3'
 
 group :doc do
   gem 'sdoc', require: false
@@ -28,11 +32,11 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 gem 'unicorn'
 
 group :development do
-  gem 'sqlite3'
+
   gem 'letter_opener'
 end
 
 group :production do
-  gem 'pg'
+
   gem 'rails_12factor'
 end

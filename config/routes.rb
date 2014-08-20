@@ -1,5 +1,6 @@
 Seasaltdev::Application.routes.draw do
 
+  get "homes/show"
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   get '/logout', to: 'sessions#destroy'
@@ -10,7 +11,7 @@ Seasaltdev::Application.routes.draw do
   resources :products
 
   resources :pages
-  root to: "pages#index"
+  root to: "homes#show"
   resources :orders
   resources :users
 
