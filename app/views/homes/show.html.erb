@@ -1,5 +1,4 @@
-<div class="row">
-
+<div class="post">
   <!-- Line Chart - Single Series -->
   <div class="col-xs-6">
     <h3>Visits By Day</h3>
@@ -7,7 +6,22 @@
   ["Washington", "1789-04-29", "1797-03-03"],
   ["Adams", "1797-03-03", "1801-03-03"],
   ["Jefferson", "1801-03-03", "1809-03-03"]
-] %>
+  ] %>
   </div>
 
+
+<div class="col-xs-6">
+    <h3>Total Visits by Country</h3>
+    <%= pie_chart @visits.group(:country).count %>
+  </div>
+
+  <div class="col-xs-6">
+    <h3>Total Visits Per Country</h3>
+    <%= column_chart @visits.group(:country).count %>
+  </div>
+
+  <div class="col-xs-6">
+    <h3>Total Visits Per Country</h3>
+    <%= bar_chart @visits.group(:country).count %>
+  </div>
 </div>
