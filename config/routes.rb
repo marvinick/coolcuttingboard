@@ -11,7 +11,7 @@ Seasaltdev::Application.routes.draw do
   resources :products
 
   resources :pages
-  root to: "homes#show"
+  root to: "pages#index"
   resources :orders
   resources :users
 
