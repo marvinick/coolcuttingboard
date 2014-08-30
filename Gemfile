@@ -22,7 +22,7 @@ gem 'groupdate', '~> 2.1.1'
 gem 'active_median', '~> 0.1.0'
 gem 'hightop'
 gem 'taps'
-gem 'pg'
+
 
 group :doc do
   gem 'sdoc', require: false
@@ -34,8 +34,10 @@ gem 'unicorn'
 
 group :development do
   gem 'letter_opener'
+  gem 'sqlite3'
 end
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
